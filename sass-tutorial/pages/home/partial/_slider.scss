@@ -1,0 +1,18 @@
+@import '../../../abstracts/variables';
+@import '../../../abstracts/mixins';
+
+.slider{
+    @include flex($direction:column, $justify:center, $align:center);
+    background-color: $secondary-color;
+    h2{
+        color: white;
+        font-size: 2em;
+        @include sm{
+            font-size: 3em;
+        }
+    }
+    p{
+        color: white;
+        font-size: 1.5em;
+    }
+}

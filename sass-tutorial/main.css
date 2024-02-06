@@ -1,0 +1,112 @@
+@import url("https://fonts.googleapis.com/css2?family=Caveat:wght@400;500;600;700&display=swap");
+*, *:before, *:after {
+  box-sizing: border-box;
+}
+
+html, body, div, span, object, iframe, figure, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, code, em, img, small, strike, strong, sub, sup, tt, b, u, i, ol, ul, li, fieldset, form, label, table, caption, tbody, tfoot, thead, tr, th, td, main, canvas, embed, footer, header, nav, section, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -webkit-text-size-adjust: none;
+     -moz-text-size-adjust: none;
+          text-size-adjust: none;
+}
+
+footer, header, nav, section, main {
+  display: block;
+}
+
+body {
+  line-height: 1;
+}
+
+ol, ul {
+  list-style: none;
+}
+
+blockquote, q {
+  quotes: none;
+}
+
+blockquote:before, blockquote:after, q:before, q:after {
+  content: "";
+  content: none;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+input {
+  -webkit-appearance: none;
+  border-radius: 0;
+}
+
+header {
+  background-color: #2C3D4F;
+  padding: 25px;
+  display: flex;
+}
+header h3 {
+  color: white;
+  font-size: 1.5em;
+}
+header nav ul {
+  display: flex;
+  justify-content: space-between;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+header nav ul li a {
+  color: white;
+  text-decoration: none;
+  padding: 10px;
+}
+header nav ul li a:hover {
+  background-color: #19BC9C;
+}
+
+footer {
+  background-color: #2C3D4F;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.slider {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #19BC9C;
+}
+.slider h2 {
+  color: white;
+  font-size: 2em;
+}
+@media (min-width: 576px) {
+  .slider h2 {
+    font-size: 3em;
+  }
+}
+.slider p {
+  color: white;
+  font-size: 1.5em;
+}
+
+p {
+  color: black;
+}
+
+input {
+  -webkit-appearance: none;
+  border-radius: 0;
+}/*# sourceMappingURL=main.css.map */
