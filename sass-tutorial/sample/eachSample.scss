@@ -1,0 +1,14 @@
+$sizes: 40px, 50px, 80px, 100px;
+
+@each $size in $sizes {
+  .icon-#{$size} {
+    font-size: $size;
+    line-height: $size;
+  }
+}
+
+$colors: (primary: #333, secondary: #444, danger: #f00, success: #0f0);
+
+@each $key, $color in $colors {
+  .sinerji-#{$key} { background-color: $color; }
+}
